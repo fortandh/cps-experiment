@@ -1,0 +1,167 @@
+Created by PLY version 3.11 (http://www.dabeaz.com/ply)
+
+Grammar
+
+Rule 0     S' -> entity
+Rule 1     entity -> simple_entity DOT LPAREN entities RPAREN
+Rule 2     entity -> simple_entity
+Rule 3     simple_entity -> NAME LSQUARE NAME RSQUARE
+Rule 4     simple_entity -> NAME
+Rule 5     entities -> entity
+Rule 6     entities -> entity CONNECTOR entities
+
+Terminals, with rules where they appear
+
+CONNECTOR            : 6
+DOT                  : 1
+LPAREN               : 1
+LSQUARE              : 3
+NAME                 : 3 3 4
+RPAREN               : 1
+RSQUARE              : 3
+error                : 
+
+Nonterminals, with rules where they appear
+
+entities             : 1 6
+entity               : 5 6 0
+simple_entity        : 1 2
+
+Parsing method: LALR
+
+state 0
+
+    (0) S' -> . entity
+    (1) entity -> . simple_entity DOT LPAREN entities RPAREN
+    (2) entity -> . simple_entity
+    (3) simple_entity -> . NAME LSQUARE NAME RSQUARE
+    (4) simple_entity -> . NAME
+
+    NAME            shift and go to state 1
+
+    simple_entity                  shift and go to state 3
+    entity                         shift and go to state 2
+
+state 1
+
+    (3) simple_entity -> NAME . LSQUARE NAME RSQUARE
+    (4) simple_entity -> NAME .
+
+    LSQUARE         shift and go to state 4
+    DOT             reduce using rule 4 (simple_entity -> NAME .)
+    $end            reduce using rule 4 (simple_entity -> NAME .)
+    CONNECTOR       reduce using rule 4 (simple_entity -> NAME .)
+    RPAREN          reduce using rule 4 (simple_entity -> NAME .)
+
+
+state 2
+
+    (0) S' -> entity .
+
+
+
+state 3
+
+    (1) entity -> simple_entity . DOT LPAREN entities RPAREN
+    (2) entity -> simple_entity .
+
+    DOT             shift and go to state 5
+    CONNECTOR       reduce using rule 2 (entity -> simple_entity .)
+    RPAREN          reduce using rule 2 (entity -> simple_entity .)
+    $end            reduce using rule 2 (entity -> simple_entity .)
+
+
+state 4
+
+    (3) simple_entity -> NAME LSQUARE . NAME RSQUARE
+
+    NAME            shift and go to state 6
+
+
+state 5
+
+    (1) entity -> simple_entity DOT . LPAREN entities RPAREN
+
+    LPAREN          shift and go to state 7
+
+
+state 6
+
+    (3) simple_entity -> NAME LSQUARE NAME . RSQUARE
+
+    RSQUARE         shift and go to state 8
+
+
+state 7
+
+    (1) entity -> simple_entity DOT LPAREN . entities RPAREN
+    (5) entities -> . entity
+    (6) entities -> . entity CONNECTOR entities
+    (1) entity -> . simple_entity DOT LPAREN entities RPAREN
+    (2) entity -> . simple_entity
+    (3) simple_entity -> . NAME LSQUARE NAME RSQUARE
+    (4) simple_entity -> . NAME
+
+    NAME            shift and go to state 1
+
+    entities                       shift and go to state 10
+    simple_entity                  shift and go to state 3
+    entity                         shift and go to state 9
+
+state 8
+
+    (3) simple_entity -> NAME LSQUARE NAME RSQUARE .
+
+    DOT             reduce using rule 3 (simple_entity -> NAME LSQUARE NAME RSQUARE .)
+    $end            reduce using rule 3 (simple_entity -> NAME LSQUARE NAME RSQUARE .)
+    CONNECTOR       reduce using rule 3 (simple_entity -> NAME LSQUARE NAME RSQUARE .)
+    RPAREN          reduce using rule 3 (simple_entity -> NAME LSQUARE NAME RSQUARE .)
+
+
+state 9
+
+    (5) entities -> entity .
+    (6) entities -> entity . CONNECTOR entities
+
+    RPAREN          reduce using rule 5 (entities -> entity .)
+    CONNECTOR       shift and go to state 11
+
+
+state 10
+
+    (1) entity -> simple_entity DOT LPAREN entities . RPAREN
+
+    RPAREN          shift and go to state 12
+
+
+state 11
+
+    (6) entities -> entity CONNECTOR . entities
+    (5) entities -> . entity
+    (6) entities -> . entity CONNECTOR entities
+    (1) entity -> . simple_entity DOT LPAREN entities RPAREN
+    (2) entity -> . simple_entity
+    (3) simple_entity -> . NAME LSQUARE NAME RSQUARE
+    (4) simple_entity -> . NAME
+
+    NAME            shift and go to state 1
+
+    entities                       shift and go to state 13
+    simple_entity                  shift and go to state 3
+    entity                         shift and go to state 9
+
+state 12
+
+    (1) entity -> simple_entity DOT LPAREN entities RPAREN .
+
+    CONNECTOR       reduce using rule 1 (entity -> simple_entity DOT LPAREN entities RPAREN .)
+    RPAREN          reduce using rule 1 (entity -> simple_entity DOT LPAREN entities RPAREN .)
+    $end            reduce using rule 1 (entity -> simple_entity DOT LPAREN entities RPAREN .)
+
+
+state 13
+
+    (6) entities -> entity CONNECTOR entities .
+
+    RPAREN          reduce using rule 6 (entities -> entity CONNECTOR entities .)
+
