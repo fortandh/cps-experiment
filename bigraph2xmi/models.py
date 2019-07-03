@@ -1,5 +1,7 @@
 # coding: utf-8
 
+from functools import reduce
+
 
 class Entity(object):
 
@@ -32,7 +34,7 @@ class Entity(object):
             return str(attr)
 
         return {
-            k: to_str(v) for k, v in self.__dict__.iteritems()
+            k: to_str(v) for k, v in self.__dict__.items()
             if k not in ['id'] and v is not None
         }
 
