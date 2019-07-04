@@ -1,6 +1,14 @@
 # coding: utf-8
+
+import sys
+import os
 from ply import lex, yacc
-from models import *
+
+parent_directory = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if not parent_directory in sys.path:
+    sys.path.insert(0, parent_directory)
+
+from bigraph2xmi.models import *
 
 tokens = (
     'NAME',

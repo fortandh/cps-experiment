@@ -11,7 +11,7 @@ from bigraph2xmi.xml_writer import make_xmi
 if __name__ == '__main__':
     cur_time = int((datetime.datetime.now() - datetime.datetime(1970, 1, 1)).total_seconds() * 1000)
     random.seed(cur_time)
-    path = 'E:/repos/CPS_experiment/scale/{0}'.format(cur_time)
+    path = './scale/{0}'.format(cur_time)
     os.mkdir(path)
 
     room_num = random.randint(10, 60)
@@ -48,7 +48,7 @@ if __name__ == '__main__':
         f.write(bigraph)
     with open('{0}/instance.xmi'.format(path), 'w') as f:
         parser.parse(bigraph)
-        f.write(make_xmi(Entity.instances))
+        f.write(str((make_xmi(Entity.instances)), encoding="utf8"))
 
     gm = generate_goals(instance, goal_model, goal_config)
     assign_weight(gm)

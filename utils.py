@@ -113,7 +113,7 @@ def random_with_fixed_sum(n, s):
 
 
 def distribute_doors(rooms, doors):
-    n_connected, connected = range(rooms), []
+    n_connected, connected = list(range(rooms)), []
     edges = []
 
     def random_del(l):
@@ -140,18 +140,18 @@ def distribute_doors(rooms, doors):
 
 def generate_instance(config):
     rooms = config['Room']
-    bel = {k: distribute(v, rooms) for k, v in config['belongings']['fixed'].iteritems()}
+    bel = {k: distribute(v, rooms) for k, v in config['belongings']['fixed'].items()}
     doors = distribute_doors(rooms, config['Door'])
 
     return [{'type': 'Room', 'value': 'r{0}'.format(i), 'subs': [{
         'type': 'Door', 'value': 'd{0}'.format(d), 'subs': []
     } for d in doors[i]] + [{
         'type': k, 'value': None, 'subs': []
-    } for k, v in bel.iteritems() if v[i] >= 0]} for i in range(rooms)]
+    } for k, v in bel.items() if v[i] >= 0]} for i in range(rooms)]
 
 
 def assign_state(instance, state_config):
-    bel = {k: distribute(v, len(instance)) for k, v in config['belongings']['movable'].iteritems()}
+    bel = {k: distribute(v, len(instance)) for k, v in config['belongings']['movable'].items()}
     for i, room in enumerate(instance):
         light_state = None
         heater_state = None
@@ -172,7 +172,7 @@ def assign_state(instance, state_config):
                 if printer_state:
                     entity['subs'].append({'type': 'Asset', 'value': None, 'subs': []})
 
-        for k, v in bel.iteritems():
+        for k, v in bel.items():
             if v[i] >= 0:
                 room['subs'].append({
                     'type': k,

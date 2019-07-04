@@ -25,7 +25,7 @@ if __name__ == '__main__':
         f.write(bigraph)
     with open('{0}/instance.xmi'.format(path), 'w') as f:
         parser.parse(bigraph)
-        f.write(make_xmi(Entity.instances))
+        f.write(str((make_xmi(Entity.instances)), encoding="utf8"))
 
     gm = generate_goals(instance, goal_model, goal_config)
     assign_weight(gm)
