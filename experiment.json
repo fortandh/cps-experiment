@@ -1,0 +1,1522 @@
+[
+	{
+		"type": "Room",
+		"value": "phda",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d1",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			},
+			{
+				"type": "Secretary",
+				"value": "carmen",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "pr1",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d2",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "on",
+				"subs": []
+			},
+			{
+				
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "pr2",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d3",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "pr3",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d4",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			},
+			{
+				"type": "Roomba",
+				"value": null,
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "st",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "dm",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "bd",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d5",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "pr4",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d6",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "pr5",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d7",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			},
+			{
+				"type": "Roomba",
+				"value": null,
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "pr6",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d8",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "pr7",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d9",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			},
+			{
+				"type": "Agent",
+				"value": "christos",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "pr8",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d10",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "pr9",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d11",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "pr10",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d12",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			},
+			{
+				"type": "Roomba",
+				"value": null,
+				"subs": []
+			},
+			{
+				"type": "Agent",
+				"value": "mary",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "pr11",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d13",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "pr12",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d14",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "pr13",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d15",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "srv",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d16",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Server",
+				"value": null,
+				"subs": []
+			},
+			{
+				"type": "Agent",
+				"value": "assassin",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "bf",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d17",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "bm",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d18",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "phdb",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d19",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			},
+			{
+				"type": "Roomba",
+				"value": null,
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "maestro",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d20",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "pr14",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d21",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			},
+			{
+				"type": "Agent",
+				"value": "boyuan",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "prt1",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d22",
+				"subs": []
+			},
+			{
+				"type": "Printer",
+				"value": null,
+				"subs": [
+					{
+						"type": "Asset",
+						"value": null,
+						"subs": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "meet",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d23",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d34",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "cor4",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d1",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d35",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d36",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d2",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d3",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d4",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d37",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d21",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d34",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d22",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "cof",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d25",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "cor1",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d23",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d26",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d20",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d19",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d18",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d36",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d25",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d35",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d38",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "sec",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d37",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d38",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "rec",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "dm",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d26",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d39",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "chr",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d29",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			},
+			{
+				"type": "Roomba",
+				"value": null,
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "prt2",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d30",
+				"subs": []
+			},
+			{
+				"type": "Printer",
+				"value": null,
+				"subs": [
+					{
+						"type": "Asset",
+						"value": null,
+						"subs": []
+					}
+				]
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "lab",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d40",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d41",
+				"subs": []
+			},
+			{
+				"type": "Light",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Brightness",
+				"value": "high",
+				"subs": []
+			},
+			{
+				"type": "Temperature",
+				"value": "low",
+				"subs": []
+			},
+			{
+				"type": "Heater",
+				"value": "off",
+				"subs": []
+			},
+			{
+				"type": "Window",
+				"value": "on",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "prt3",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d32",
+				"subs": []
+			},
+			{
+				"type": "Printer",
+				"value": null,
+				"subs": [
+					{
+						"type": "Asset",
+						"value": null,
+						"subs": []
+					}
+				]
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "cor3",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d42",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d33",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d7",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d6",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d8",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d9",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d10",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d32",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d5",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d40",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	},
+	{
+		"type": "Room",
+		"value": "cor2",
+		"subs": [
+			{
+				"type": "Door",
+				"value": "d33",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d30",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d29",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d11",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d12",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d13",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d14",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d15",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d16",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d17",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d39",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d42",
+				"subs": []
+			},
+			{
+				"type": "Door",
+				"value": "d41",
+				"subs": []
+			},
+			{
+				"type": "Cleanness",
+				"value": "dirty",
+				"subs": []
+			}
+		]
+	}
+]
+	
